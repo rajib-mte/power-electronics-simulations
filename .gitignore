@@ -1,0 +1,102 @@
+
+# =====================================
+# Operating System Files
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# IDE and Editor Files
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =====================================
+# MATLAB / Simulink
+# =====================================
+*.asv
+*.m~
+*.autosave
+slprj/
+codegen/
+*.slxc
+*.mex*
+*.pdb
+*.log
+
+# Keep MATLAB source and Simulink models:
+# *.m
+# *.mlx
+# *.slx
+# *.mdl
+
+# =====================================
+# Proteus
+# =====================================
+*.bak
+*.dbk
+*.tmp
+*.log
+
+# Keep Proteus project files:
+# *.pdsprj
+# *.dsn
+# *.lyt
+# *.hex
+# *.elf
+# *.cof
+
+# =====================================
+# LTspice
+# =====================================
+*.raw
+*.log
+*.net
+*.op.raw
+*.fft
+*.meas
+*.plt
+
+# Keep LTspice files:
+# *.asc
+# *.asy
+# *.cir
+# *.lib
+# *.sub
+
+# =====================================
+# General Simulation Temporary Files
+# =====================================
+*.temp
+*.cache
+*.old
+*.orig
+*.backup
+*.autosave
+
+# =====================================
+# Python (If Used)
+# =====================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# =====================================
+# Build and Distribution Files
+# =====================================
+build/
+dist/
+
+# =====================================
+# Generated Data (Review Before Commit)
+# =====================================
+*.tr0
+*.ac0
+*.dc0
+*.sw0
+*.out
